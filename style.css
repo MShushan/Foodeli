@@ -1,0 +1,712 @@
+.clear{
+    clear: both;
+  }
+  .header{
+    background-color: white;
+    height: 100px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+
+  }
+  .image img{
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 100px;
+    float: left;
+  }
+  .image_two img{
+    width: 60px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+  nav{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -40px;
+  }
+  .menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none;
+  }
+  .menu a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 30px;
+    transition: 0.3s;
+    
+    text-decoration: none;
+    color: grey;
+    
+    text-align: center;
+    height: 40px;
+  }
+  .menu a:hover{
+    background-color: rgb(240, 219, 219);
+  }
+  .parent_style{
+    display: block;
+  }
+  .parent_style > li{
+    float: left;
+  }
+  .hover:hover > .menu{
+    display: block;
+  }
+  .header_right{
+    float: right;
+    margin-top: -35px;
+    margin-right: 170px;
+    margin-left: 500px;
+
+  }
+  .fa-search{
+    font-size: 50px;
+    color: black;
+    margin-right: 20px;
+  }
+  .fa-lock{
+    font-size: 50px;
+    color: black;
+    margin-right: 100px;
+    margin-left: -10px;
+  }
+  
+  .login{ 
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 50px;
+    height: 40px;
+    padding-bottom: 10px;
+    float: right;
+    padding-top: -15px;
+    margin-right: 180px;
+    margin-top: -55px;
+    border-radius: 25px;
+  }
+  .login a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    
+  }
+  .fa-sign-in{
+    float: left;
+    margin-top: -10px;
+    
+  }
+  .part_two{
+    background-color: white;
+    height: 70px;
+    padding: 5px;
+  }
+.faster{
+    background-color: rgb(244, 220, 238);
+    color:red;
+    width: 150px;
+    font-size: 17px;
+    text-align: center;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 260px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -12px;
+}
+.faster p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.clock img{
+  width: 50px;
+  margin-left: 700px;
+  margin-top: -40px;
+
+
+}
+.fire img{
+  width: 50px;
+  margin-right: 200px;
+  margin-top: -60px;
+  float: right;
+  
+}
+.part_main{
+  background-color:white;
+  height: 300px;
+  margin-left: 170px;
+  margin-right: 50px;
+
+}
+.word{
+  float: left;
+  width: 400px;
+  margin-left: 80px;
+
+}
+.word h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 300px;
+  margin-left: 30px;
+}
+.word h2 span{
+  color:red;
+}
+.word p{
+  margin-left: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 300px;
+}
+.btn{
+  border: none;
+  background-color: brown;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.btn:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.watch_video{
+  margin-top: 68px;
+  margin-left: 100px;
+
+
+}
+.watch_video a{
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(37, 36, 36);
+
+}
+.word img{
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 40px;
+  float: left;
+
+  }
+  .plate_part{
+    float:right;
+
+  }
+  .plate_part img{
+    width: 450px;
+    margin-right: 180px;
+    margin-top: -50px;
+
+  }
+  .delivery{
+    width:220px;
+    background-color: rgb(245, 238, 238);
+    float: right;
+    margin-top: 280px;
+    height: 35px;
+    padding: 2px;
+    border-radius: 20px;
+    margin-right: -180px;
+
+
+  }
+  .delivery_photo{
+    width: 28px;
+    float: left;
+  }
+  .call{
+    width: 30px;
+    float:right;
+    margin-top: -37px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .delivery p{
+    margin-top: 5px;
+    margin-right: 3px;
+   
+  }
+  .delivery a{
+    text-decoration: none;
+    color: black;
+  }
+  .pizza {
+    width: 200px;
+    height: 90px;
+    background-color: rgb(252, 251, 251);
+    float: right;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right:-500px;
+    margin-top: 320px;
+
+  }
+  .pizza img{
+    float: left;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .star{
+    float:right;
+    margin-top: -80px;
+    margin-right: 0px;
+    line-height: 2px;
+   
+
+  }
+  .fa-star-o{
+    font-size: 17px;
+    color: yellow;
+  }
+  .fas{
+    color:rgb(54, 51, 51)
+  }
+  .customers{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    
+  }
+  .customers img{
+    width: 23px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+  }
+  .review{
+    float: right;
+    margin-top: -5px;
+    line-height: 0px;
+    margin-right: 30px;
+    font-size: 15px;
+    
+
+  }
+  .change_grey{
+    color: grey;
+  }
+  .serve{
+    width: 400px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 520px;
+  }
+  .serve p{
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  .serve h1{
+    width: 350px;
+    text-align: center;
+    margin-left: 28px;
+    font-size: 30px;
+    font-weight: 4px;
+    
+  }
+  .articles{
+  
+    margin-left: 250px;
+    margin-right: 70px;
+    margin-top: -10px;
+    margin-bottom: 80px;
+
+  }
+  .article{
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+
+  }
+  .article h2{
+    padding: 0;
+    margin: 0;
+    font-weight: 5px;
+    margin-left: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .article p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    margin-top: 13px;
+    width: 180px;
+    text-align: center;
+    margin-left: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .article img{
+    width: 85%;
+  }
+  .ourmenu{
+    float: left;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 360px;
+  }
+  
+  .ourmenu p{
+    text-align: left;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 80px;
+    font-weight: 5px;
+  }
+  .ourmenu h1{
+    width: 350px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2px;
+    font-size: 30px;
+    font-weight: 10px;
+    
+  }
+  
+  
+  .menu_items{
+    overflow-y: scroll;
+    height: 250px;
+    width: 300px;
+   margin-top: 300px;
+   float: left;
+   margin-left: -410px;
+  
+  
+  }
+  .menu_items ul li img {
+    margin-left: 20px;
+    width: 20px;
+    margin-right: 30px;
+  }
+  .menu_items a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10px;
+    color: black;
+    
+  }
+  .menu_items ul li{
+    list-style: none;
+    line-height: 50px;
+    
+  }
+  .menu_items ul{
+    margin-top: 0px;
+  }
+  .italianpizza{
+    
+  
+    float: left;
+    margin-top: 300px;
+   margin-left: 50px;
+  }
+  .italianpizza img{
+    width:300px ;
+    height: 270px;
+  }
+  .italianpizza h3{
+    margin-top: -100px;
+    margin-left: 30px;
+    color: white;
+    font-family: serif;
+    font-weight: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  
+    
+  }
+  .italianpizza_price{
+    margin-left: 30px;
+    margin-top: 15px;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+  }
+  .italianpizza_price span{
+    color: gold;
+  }
+  .order_now{
+     margin-left: 30px;
+    font-size: 15px;
+  }
+  .order_now a{
+    text-decoration: none;
+    color: white;
+  }
+  .about{
+    float: left;
+    margin-left: 250px;
+    margin-top: 100px;
+  }
+  .about img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .what_say{
+    float:left;
+    width:350px ;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+
+  }
+  .say{
+    text-align: left;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+  }
+  .what_say h1{
+    width: 300px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2px;
+    font-size: 30px;
+    font-weight: 20px;
+    
+  }
+  .thereza{
+    width:200px; 
+    margin-left: -20px ;
+
+    margin-top: 180px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 0;
+ }
+  .jordan{
+    width: 35px;
+    float: left;
+    margin-left: 20px;
+    
+  }
+  .girl{
+    margin-left: 30px;
+
+  }
+  .girl a{
+    text-decoration:none ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-left: 20px;
+  
+    
+  }
+  .enthusiast{
+    margin-top: -13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    margin-left: 85px;
+    font-size: 13px;
+  }
+.fa-star-o{
+  margin-left: 5px;
+ 
+ 
+}
+.fa_last{
+  color: antiquewhite;
+}
+.rating{
+  float:right;
+  margin-top: -35px;
+  margin-right: 190px;
+  color: grey;
+
+}
+.pink{
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 100px;
+  height: 400px;
+  background-color: #FAD4C0;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+}
+.app{
+  text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.app a{
+  text-decoration: none;
+  color:red;
+}
+.fudo{
+  width: 250px;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2px;
+  font-size: 30px;
+  font-weight: 50px;
+  margin-left: 50px;
+
+}
+.lorem_two{
+  margin-left: 50px;
+  width: 250px;
+}
+.btn_two{
+  border: none;
+  background-color: red;
+  color: white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.btn_two:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.delivery_two{
+  width:220px;
+  background-color: rgb(245, 238, 238);
+  float: left;
+  margin-top: 0px;
+  margin-left: 200px;
+  height: 35px;
+  padding: 2px;
+  border-radius: 20px;
+ }
+ .delivery_two p{
+  margin-top: 5px;
+  margin-right: 3px;
+ 
+}
+.delivery_two a{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  height: 200px;
+  margin-left: 230px;
+  margin-top: 80px;
+  padding: 30px;
+}
+.footer_first{
+  float: left;
+  width: 200px;
+  margin-right: 50px;
+}
+.foodeli img{
+  width: 40px;
+  color: red;
+  float: left;
+
+}
+.foodeli p{
+  float: left;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+}
+.lorem_three{
+  width: 180px;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.icon span{
+  color: red;
+  margin-right: 20px;
+}
+.footer_second{
+  float: left;
+  width: 200px;
+  margin-top:-20px ;
+
+  
+}
+
+.aboutlast{
+  font-size: 25px;
+  margin-left: 3px;
+  color: black;
+
+}
+.footer_second a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 40px;
+  color: rgb(89, 84, 84);
+  font-size: 14px;
+}
+.two{
+  float: left;
+  width: 200px;
+  margin-left: 400px;
+  margin-top: -216px;
+ 
+}
+.three{
+  float: left;
+  width: 200px;
+  margin-left: 580px;
+  margin-top: -216px;
+
+}
+.four{
+  float: left;
+  width: 200px;
+  margin-left: 750px;
+  margin-top: -216px;
+
+}
+.btn_three{
+  border: none;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.btn_three:hover{
+  background-color: red;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+  
